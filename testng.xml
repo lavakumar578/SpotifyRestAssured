@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite parallel="classes" name="Suite">
+  <test thread-count="5" parallel="classes" name="Test">
+    <classes>
+      <class name="com.Albums.TC_02GetSeveralAlbumTest"/>
+      <class name="com.Albums.TC_07CheckSavedAlbumTest"/>
+      <class name="com.Albums.TC_06RemoveAlbumsTest"/>
+      <class name="com.Albums.TC_05SaveAlbumsTest"/>
+      <class name="com.Albums.TC_08GetNewReleasesTest"/>
+      <class name="com.Albums.TC_04GetSavedAlbumsTest"/>
+      <class name="com.Albums.TC_03GetAlbumTracksTest"/>
+      <class name="com.Albums.TC_01GetAlbumTest"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[----API Request Sent--------]]>
+    </line>
+    <line>
+      <![CDATA[---------API Response Received--------]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2022-10-31T13:30:41 IST" name="Default suite" finished-at="2022-10-31T13:30:44 IST" duration-ms="3136">
+    <groups>
+    </groups>
+    <test started-at="2022-10-31T13:30:41 IST" name="Default test" finished-at="2022-10-31T13:30:44 IST" duration-ms="3136">
+      <class name="com.Albums.TC_01_Albums_GetAlbumTest">
+        <test-method is-config="true" signature="beforeConfiguration()[pri:0, instance:com.Albums.TC_01_Albums_GetAlbumTest@30bce90b]" started-at="2022-10-31T13:30:41 IST" name="beforeConfiguration" finished-at="2022-10-31T13:30:41 IST" duration-ms="18" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[----API Request Sent--------]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- beforeConfiguration -->
+        <test-method signature="getAlbumTest()[pri:1, instance:com.Albums.TC_01_Albums_GetAlbumTest@30bce90b]" started-at="2022-10-31T13:30:41 IST" name="getAlbumTest" finished-at="2022-10-31T13:30:44 IST" duration-ms="2979" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getAlbumTest -->
+        <test-method is-config="true" signature="afterConfiguration()[pri:0, instance:com.Albums.TC_01_Albums_GetAlbumTest@30bce90b]" started-at="2022-10-31T13:30:44 IST" name="afterConfiguration" finished-at="2022-10-31T13:30:44 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[---------API Response Received--------]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- afterConfiguration -->
+      </class> <!-- com.Albums.TC_01_Albums_GetAlbumTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite parallel="classes" name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" parallel="classes" name="Test(failed)">
+    <classes>
+      <class name="com.Albums.TC_04GetSavedAlbumsTest">
+        <methods>
+          <include name="beforeConfiguration"/>
+          <include name="getSavedAlbumsTest"/>
+          <include name="afterConfiguration"/>
+        </methods>
+      </class> <!-- com.Albums.TC_04GetSavedAlbumsTest -->
+      <class name="com.Albums.TC_03GetAlbumTracksTest">
+        <methods>
+          <include name="beforeConfiguration"/>
+          <include name="getAlbumTracksTest"/>
+          <include name="afterConfiguration"/>
+        </methods>
+      </class> <!-- com.Albums.TC_03GetAlbumTracksTest -->
+      <class name="com.Albums.TC_01GetAlbumTest">
+        <methods>
+          <include name="getAlbumTest"/>
+          <include name="beforeConfiguration"/>
+          <include name="afterConfiguration"/>
+        </methods>
+      </class> <!-- com.Albums.TC_01GetAlbumTest -->
+      <class name="com.Albums.TC_08GetNewReleasesTest">
+        <methods>
+          <include name="getNewReleasesTest"/>
+          <include name="beforeConfiguration"/>
+          <include name="afterConfiguration"/>
+        </methods>
+      </class> <!-- com.Albums.TC_08GetNewReleasesTest -->
+      <class name="com.Albums.TC_07CheckSavedAlbumTest">
+        <methods>
+          <include name="beforeConfiguration"/>
+          <include name="CheckSavedAlbumTest"/>
+          <include name="afterConfiguration"/>
+        </methods>
+      </class> <!-- com.Albums.TC_07CheckSavedAlbumTest -->
+      <class name="com.Albums.TC_05SaveAlbumsTest">
+        <methods>
+          <include name="saveAlbumsTest"/>
+          <include name="beforeConfiguration"/>
+          <include name="afterConfiguration"/>
+        </methods>
+      </class> <!-- com.Albums.TC_05SaveAlbumsTest -->
+      <class name="com.Albums.TC_06RemoveAlbumsTest">
+        <methods>
+          <include name="removeAlbumsTest"/>
+          <include name="beforeConfiguration"/>
+          <include name="afterConfiguration"/>
+        </methods>
+      </class> <!-- com.Albums.TC_06RemoveAlbumsTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
